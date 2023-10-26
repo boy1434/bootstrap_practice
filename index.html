@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="card" style="width: 18rem;">
+    <img
+      src="data:image/png;base64,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"
+      class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">네이버로고</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary">Primary</button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
